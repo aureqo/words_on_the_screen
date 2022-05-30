@@ -1,3 +1,7 @@
+fn cls(){
+    print!("{esc}c", esc = 27 as char); 
+}
 fn main() {
-    println!("space is cool :O")
+    cls();
+    println!("space is cool :O");
 }
